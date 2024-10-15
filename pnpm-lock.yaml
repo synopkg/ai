@@ -175,7 +175,7 @@ importers:
         version: link:../../packages/openai
       '@hono/node-server':
         specifier: 1.12.2
-        version: 1.12.2(hono@4.5.11)
+        version: 1.12.2(hono@4.6.5)
       ai:
         specifier: latest
         version: link:../../packages/ai
@@ -183,8 +183,8 @@ importers:
         specifier: 16.4.5
         version: 16.4.5
       hono:
-        specifier: 4.5.11
-        version: 4.5.11
+        specifier: 4.6.5
+        version: 4.6.5
     devDependencies:
       '@types/node':
         specifier: 20.11.20
@@ -6086,13 +6086,13 @@ packages:
       protobufjs: 7.3.2
       yargs: 17.7.2
 
-  /@hono/node-server@1.12.2(hono@4.5.11):
+  /@hono/node-server@1.12.2(hono@4.6.5):
     resolution: {integrity: sha512-xjzhqhSWUE/OhN0g3KCNVzNsQMlFUAL+/8GgPUr3TKcU7cvgZVBGswFofJ8WwGEHTqobzze1lDpGJl9ZNckDhA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: ^4
     dependencies:
-      hono: 4.5.11
+      hono: 4.6.5
     dev: false
 
   /@huggingface/inference@2.6.4:
@@ -17624,9 +17624,9 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /hono@4.5.11:
-    resolution: {integrity: sha512-62FcjLPtjAFwISVBUshryl+vbHOjg8rE4uIK/dxyR8GpLztunZpwFmfEvmJCUI7xoGh/Sr3CGCDPCmYxVw7wUQ==}
-    engines: {node: '>=16.0.0'}
+  /hono@4.6.5:
+    resolution: {integrity: sha512-qsmN3V5fgtwdKARGLgwwHvcdLKursMd+YOt69eGpl1dUCJb8mCd7hZfyZnBYjxCegBG7qkJRQRUy2oO25yHcyQ==}
+    engines: {node: '>=16.9.0'}
     dev: false
 
   /hookable@5.5.3:
